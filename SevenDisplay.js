@@ -14,15 +14,6 @@ dp = [
 	"1,1,1,1,0,1,1"
 ];
 
-$(function() {
-
-	$('.sevenDisplay').sevenDisplay({
-			speed: "1000"
-		});
-
-});
-
-
 (function($) {
 	$.fn.extend({
 		sevenDisplay: function(array) {
