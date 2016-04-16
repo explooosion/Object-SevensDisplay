@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="SevenDisplay.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="SevenDisplay.js"></script>
+		<style>
+			body{
+				margin: 0;
+				padding: 0;
+			}
+			#wrapper{
+				width: 550px;
+				height: 300px;
+				text-align: center;
+				position: relative;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div class="sevenDisplay">
+				<div class="dpA"></div>
+				<div class="dpB"></div>
+				<div class="dpC"></div>
+				<div class="dpD"></div>
+				<div class="dpE"></div>
+				<div class="dpF"></div>
+				<div class="dpG"></div>
+			</div>
+		</div>
+		<script>
+		  $(function() {
+		        $('.sevenDisplay').sevenDisplay({
+			        speed: "1000"
+		        });
+		  });
+		</script>
+	</body>
+</html>
